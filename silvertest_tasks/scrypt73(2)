@@ -1,0 +1,27 @@
+import math
+a = abs(int(input()))
+b = abs(int(input()))
+c = abs(int(input()))
+d = abs(int(input()))
+x = abs(b - a)
+y = abs(d - c)
+z = abs(b + a)
+v = abs(d + c)
+if a == c and b!= d:
+    print("YES")
+elif b == d and a != c:
+    print("YES")
+elif x == y:
+    print("YES")
+elif z == v:
+    print("YES")
+elif a == c and b == d:
+    print("YES")
+elif a != c and b != d:
+    print("NO")
+elif x != y:
+    print("NO")
+elif z != v:
+    print("NO")
+else:
+    print("NO")
